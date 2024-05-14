@@ -10,12 +10,36 @@ body{
 }
         h1{
             font-family: Impact;
-            color: aqua;
-            font-size: 1.7rem;
-            line-height: 1.2em;
+            color: rgb(138, 59, 175);
+            font-size: 1.9rem;
+            line-height: 2em;
             
         }
 
         h2{
-            size: 1.3rem
+            font-size: 1.3rem;
+        }
+
+
+        p{
+            font-size: 1.3rem;
+            line-height: 1.6em;
+            font-style: italic;
+            font-weight: 550;
+        }
+        ol{
+            font-size: 1.3rem;
+            line-height: 1.6em;
+            font-weight: bold;
+            
+        }
+        
+        
+        div{
+            font-size: 1.3rem;
+            line-height: 1.5em;
+            text-transform: capitalize;
+            background-color: rgba(216, 169, 243, 0.267);
+            width: 50%;
+
         }
