@@ -1,44 +1,18 @@
 Body{
-    background-color: ;
+    background-color: skyblue ;
 
 }
 
 #wrapper {
-        width: ;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 1200;
+        margin:0 auto; 
         background-color: ;
         padding: ;
+        }
 
-
-    }
-
-    header{
-            /*background-image: url("");
+    body{
+            background-image: url("img/bluey_base.jpg");
             background-repeat: no-repeat;
-            background-position: top right;
-            background-size: %; */
-
-            background: linear-gradient(),
-            url("") no-repeat top right/70%,
-            black;
-            padding: em;
-    }
-
-
-
-
-    .btn{
-
-        display: block;
-        background-color: ;
-        color: ;
-        padding: px;
-        border-radius: px;
-        width: em;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-
-
-    }
+            background-position: -100px 1em;
+            background-size: 1000px 100%;   
+        }
