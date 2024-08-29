@@ -1,0 +1,287 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+* {
+ 
+}
+body {
+background: rgba(36, 36, 36, 1);
+
+}
+    header {
+      text-align: center;
+      background: url('https://i.ibb.co/R4MbS4C/mmmpng.png');
+      background-size: cover;
+    
+        border-radius: 12px;
+       background-repeat: no-repeat;
+      color: rgba(255, 255, 255, 1);
+    }
+    h2 {
+      font-size: 27px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+      margin: 36px;
+      
+      padding: 10px;
+      border-radius: 0px;
+      
+      background: rgba(0, 0, 0, 0.0);
+      text-decoration: none; 
+     border: rgba(0, 0, 0, 0,9);
+      color: rgba(255, 255, 255, 1);
+      
+     
+      
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 360px 0px 0px 0px;
+      
+     
+    }
+    ul {
+       box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      font-family: 'Londrina Shadow' cursive;
+      border-radius: 9px;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    li {
+      font-family: 'Londrina Shadow' cursive;
+      
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+      
+      padding: 20px;
+      
+      color: rgba(207, 207, 207, 1);
+    
+}
+    
+    @media (max-width: 1100px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      
+      }
+      li {
+        font-family: 'Londrina Shadow' cursive;
+      
+        padding: 5px;
+        display: block;
+      }
+    }
+    h2 {
+      background-image: linear-gradient(to bottom, rgb(255, 142, 208,0.9),rgba(146, 134, 255, 0.575));
+    padding: 3px;
+      border-radius: 9px;
+     
+      
+    }
+    .bruh {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+      
+     
+      text-decoration: none; 
+    }
+    .bruh2 {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+     
+      
+      text-decoration: none; 
+    }
+    .bruh3 {
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+      
+    
+      text-decoration: none; 
+    }
+    button {
+      text-decoration: none;
+     background: rgba(241, 197, 243, 0.801);
+      border-radius: 9px;
+border: 0;
+color: rgba(207, 207, 207, 1);
+      
+    }
+    .soi{
+      display: grid;
+    
+      grid-gap: 0px;
+      grid-template-columns: auto auto;
+   
+    }
+    .goi { 
+      background: rgba(135, 135, 135, 0.3);
+      max-width: 1300px;
+      max-height: 900px;
+      margin-top: 90px;
+      box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      border-radius: 36px;
+    
+     
+     
+    }
+    .a{  background-image: url("https://events.cuny.edu/wp-content/uploads/2020/06/Digital-Design-Showcase.jpg");
+      background-position: center;
+     max-width: 1100px;
+     margin-top: 90px;
+      height: 600px;
+      background-size: cover;
+      position: relative;
+      box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      border-radius: 36px;
+      font-family: helvetica, sans-serif;
+     
+      
+    }
+    p2 {
+      color: rgba(255,255,255,1);
+      background: black;
+      background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      height: 30px;
+      transition: height .5s;
+      -webkit-transition: height .5s;
+      -moz-transition: height .5s;
+      box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      border-radius: 36px;
+    }
+    
+      #fademe{
+opacity:0;
+transition:2s;
+}
+#fadem{
+opacity:0;
+transition:2s;
+}
+#gas{
+  opacity:0;
+  transition:2s;
+  }
+    .bruh:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);
+    }
+    .bruh2:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);
+    }
+    .bruh3:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);}
+      .price:hover {
+        transition: .3s;
+        color: rgba(255, 255, 255, 1);
+      }
+    
+img {
+  opacity: 0;
+}
+.first{height: 369px;
+  background-image: url("https://qcdesign.commons.gc.cuny.edu/wp-content/blogs.dir/21140/files/2022/03/cropped-cropped-webbanner.png");
+  background-position: center;
+  font-family: helvetica, sans-serif;
+margin: 0 auto;
+
+position: relative;
+background-size: cover;
+border-radius: 12px;
+}
+p1 {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(36,36,36,1), rgba(36, 36, 36, 0.999));
+  background: -webkit-linear-gradient(bottom, rgba(36,36,36,1), rgba(36,36,36,0.9));
+  background: -moz-linear-gradient(bottom, rgba(36,36,36,1), rgba(0,36,36,36.9));
+  padding: 10px;
+  line-height: 36px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 130px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  font-size: 30px;
+  border-radius: 0px;
+  max-width: 1100px;
+}
+@media (max-width: 1100px) {
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+#parent {
+  max-width: 96vw;
+ 
+}
+
+#child {
+  max-width: inherit;
+  width: 99vw;
+  
+}
+.price {
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 9px;
+  margin: 19px;
+  border-radius: 12px;
+  border-style: solid;
+  border-image: radial-gradient(rgb(255, 142, 208), rgb(144, 149, 248)) 1;
+
+    transition: .3s;
+  color: rgba(255, 255, 255, 0.5);
+  filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+ 
+  
+
+  text-decoration: none; 
+
+}
+.u{
+  margin: 9px;
+}
+p {
+  max-width: 830px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}

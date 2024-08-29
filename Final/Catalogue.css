@@ -1,0 +1,583 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+* {
+ 
+}
+body {
+background: rgba(36, 36, 36, 1);
+
+}
+.img{
+  opacity: 1;
+  margin: 0;
+  height: 11.97vw;
+  --shared-width: 18.62vw;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ 
+}
+    header {
+      text-align: center;
+      background: url('https://i.ibb.co/R4MbS4C/mmmpng.png');
+      background-size: cover;
+    
+        border-radius: 12px;
+       background-repeat: no-repeat;
+      color: rgba(255, 255, 255, 1);
+    }
+    h2 {
+      font-size: 27px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0px;
+      max-width: 36vw;
+      min-width: 27vw;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    a {
+      margin: 36px;
+      
+      padding: 10px;
+      border-radius: 0px;
+      
+      background: rgba(0, 0, 0, 0.0);
+      text-decoration: none; 
+     border: rgba(0, 0, 0, 0,9);
+      color: black;
+      
+     
+      
+    }
+    .julia{
+      margin: 0;
+     padding:0;
+    }
+    h1 {
+      font-size: 70px;
+      
+    }
+    img {
+      margin: 360px 0px 0px 0px;
+      
+     
+    }
+    ul {
+       box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      font-family: 'Londrina Shadow' cursive;
+      border-radius: 36px;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      max-width: 1100px;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    li {
+      font-family: 'Londrina Shadow' cursive;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+      
+      padding: 20px;
+      
+      color: rgba(207, 207, 207, 1);
+    
+}
+    
+    @media (max-width: 1100px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      
+      }
+      li {
+        font-family: 'Londrina Shadow' cursive;
+      
+        padding: 5px;
+        display: block;
+      }
+    }
+    h2 {
+      background-image: linear-gradient(to bottom, rgb(255, 142, 208,0.9),rgba(146, 134, 255, 0.575));
+    padding: 3px;
+      border-radius: 9px;
+      color: white;
+    }
+    .bruh {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+      
+     
+      text-decoration: none; 
+    }
+    .bruh2 {
+       filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+     
+      
+      text-decoration: none; 
+    }
+    .bruh3 {
+        transition: .3s;
+      color: rgba(255, 255, 255, 0.5);
+      filter: drop-shadow(0 -6mm 4mm rgba(0, 0, 0, 0));
+      border-bottom: rgba(0, 0, 0, 0);
+      border-top: rgba(0, 0, 0, 0);
+      
+    
+      text-decoration: none; 
+    }
+    button {
+      text-decoration: none;
+     background: rgba(241, 197, 243, 0.801);
+      border-radius: 9px;
+border: 0;
+color: rgba(207, 207, 207, 1);
+      
+    }
+    .soi{
+     
+   
+    }
+    .goi { 
+      background: rgba(135, 135, 135, 0.3);
+     padding: 9px;
+      box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0.3);
+      border-radius: 36px;
+    margin-top: 90px;
+     max-width: 81vw;
+     margin-left: auto;
+     margin-right: auto;
+     
+    }
+    .a{  background-image: url("https://events.cuny.edu/wp-content/uploads/2020/06/Digital-Design-Showcase.jpg");
+      background-position: center;
+     max-width: 1100px;
+     margin-top: 90px;
+      height: 600px;
+      background-size: cover;
+      position: relative;
+      margin-left: auto;
+  margin-right: auto;
+      border-radius: 36px;
+      font-family: helvetica, sans-serif;
+     
+      
+    }
+    p2 {
+      color: rgba(255,255,255,1);
+      background: black;
+      background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      height: 30px;
+      transition: height .5s;
+      -webkit-transition: height .5s;
+      -moz-transition: height .5s;
+     
+      border-radius: 36px;
+    }
+    
+      #fademe{
+opacity:0;
+transition:2s;
+}
+#fadem{
+opacity:0;
+transition:2s;
+}
+#gas{
+  opacity:0;
+  transition:2s;
+  }
+    .bruh:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);
+    }
+    .bruh2:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);
+    }
+    .bruh3:hover  {
+      transition: .3s;
+      color: rgba(255, 255, 255, 1);}
+      .price:hover {
+        transition: .3s;
+        color: rgba(255, 255, 255, 1);
+      }
+    
+img {
+  opacity: 0;
+}
+.first{height: 369px;
+  background-image: url("https://qcdesign.commons.gc.cuny.edu/wp-content/blogs.dir/21140/files/2022/03/cropped-cropped-webbanner.png");
+  background-position: center;
+  font-family: helvetica, sans-serif;
+margin: 0 auto;
+
+position: relative;
+background-size: cover;
+border-radius: 12px;
+}
+p1 {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(36,36,36,1), rgba(36, 36, 36, 0.999));
+  background: -webkit-linear-gradient(bottom, rgba(36,36,36,1), rgba(36,36,36,0.9));
+  background: -moz-linear-gradient(bottom, rgba(36,36,36,1), rgba(0,36,36,36.9));
+  padding: 10px;
+  line-height: 36px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 130px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  font-size: 30px;
+  border-radius: 0px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1100px) {
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+#parent {
+  max-width: 96vw;
+  height: 369px;
+  background-image: url("https://qcdesign.commons.gc.cuny.edu/wp-content/blogs.dir/21140/files/2022/03/cropped-cropped-webbanner.png");
+  background-position: center;
+  font-family: helvetica, sans-serif;
+margin: 0 auto;
+
+position: relative;
+background-size: cover;
+border-radius: 12px;
+}
+
+#child {
+  max-width: inherit;
+  width: 99vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price {
+ 
+}
+.u{
+  margin: 9px;
+}
+p {
+  max-width: 830px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropbtn {
+  
+  background-color: rgba(146, 134, 255, 0.575);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 16vw;
+  
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 16vw;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(255, 142, 208,0.9);
+  margin-left: auto;
+  margin-right: auto;
+}
+#lo {
+float: left;
+}
+#yo {
+  margin: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 0px;
+  
+  background: rgba(0, 0, 0, 0.0);
+  text-decoration: none; 
+ border: rgba(0, 0, 0, 0,9);
+  color: rgba(255, 255, 255, 1);
+  }
+  #no {
+    float: right;
+    }
+    .dropbtn2 {
+      border-style: solid;
+      border-image: radial-gradient(rgb(255, 142, 208), rgb(144, 149, 248)) 1;
+      background-color: rgba(146, 134, 255, 0.575);
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      width: 16vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown2 {
+      position: relative;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown2-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      width: 16vw;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown2-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      margin-left: auto;
+  margin-right: auto;
+    }
+    
+    .dropdown2-content a:hover {background-color: #f1f1f1;
+      margin-left: auto;
+      margin-right: auto;}
+    
+    .dropdown2:hover .dropdown2-content {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown2:hover .dropbtn2 {
+      background-color: rgb(255, 142, 208,0.9);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .dropbtn3 {
+      border-style: solid;
+      border-image: radial-gradient(rgb(255, 142, 208), rgb(144, 149, 248)) 1;
+      background-color: rgba(146, 134, 255, 0.575);
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      width: 16vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown3 {
+      position: relative;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown3-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      width: 16vw;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown3-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown3-content a:hover {background-color: #f1f1f1;
+      margin-left: auto;
+      margin-right: auto;}
+    
+    .dropdown3:hover .dropdown3-content {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .dropdown3:hover .dropbtn3 {
+      background-color: rgb(255, 142, 208,0.9);
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .lo{
+    box-shadow: 0px 0px 9px 3px rgba(0, 0, 0, 0);
+    font-family: 'Londrina Shadow' cursive;
+    border-radius: 9px;
+    padding: 0px;
+    background: rgba(0, 0, 0, 0);
+    max-width: 1100px;
+    
+    text-align: center !important;
+    display: inline !important;
+    margin-left: 21vw;
+    margin-right: auto;
+
+  }
+  .yo{
+    
+    
+    margin-left: auto;
+  margin-right: auto;
+   
+   
+  display: inline;
+   
+    
+  
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(72, 68, 68, 0.0);
+    padding: 0px;
+    border-radius: 36px;
+  }
+  .grid-item {
+   margin: 9px;
+   
+    padding: 3px;
+    font-size: 30px;
+    text-align: left;
+    
+    width: 18.60vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: double 1.5px transparent;
+  border-radius: 9px;
+  background-image: linear-gradient(white, white), 
+                    radial-gradient(rgb(255, 142, 208), rgb(144, 149, 248));
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0px 0px 9px 3.6px rgba(0, 0, 0, 0.36);
+  }
+  #n {
+    background-color: white;
+    
+  }
+
+  p9 { 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    text-decoration: underline; margin-left: 3px;
+    margin-right: auto;
+  }
+  p8{
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 0px;
+font-weight: bold;
+margin-left: 6px;
+    margin-right: auto;
+  }
+  
+  p7 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 6px;
+    margin-right: auto;
+    font-style: italic;
+  }
+  
+  p6 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
