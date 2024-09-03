@@ -17,7 +17,7 @@ background: rgba(36, 36, 36, 1);
 }
     header {
       text-align: center;
-      background: url('https://i.ibb.co/R4MbS4C/mmmpng.png');
+      background: url('Assets/mmmpng.png');
       background-size: cover;
     
         border-radius: 12px;
@@ -160,7 +160,7 @@ color: rgba(207, 207, 207, 1);
      margin-right: auto;
      
     }
-    .a{  background-image: url("https://events.cuny.edu/wp-content/uploads/2020/06/Digital-Design-Showcase.jpg");
+    .a{  background-image: url("Assets/Digital-Design-Showcase.jpg");
       background-position: center;
      max-width: 1100px;
      margin-top: 90px;
@@ -194,18 +194,7 @@ color: rgba(207, 207, 207, 1);
       border-radius: 36px;
     }
     
-      #fademe{
-opacity:0;
-transition:2s;
-}
-#fadem{
-opacity:0;
-transition:2s;
-}
-#gas{
-  opacity:0;
-  transition:2s;
-  }
+
     .bruh:hover  {
       transition: .3s;
       color: rgba(255, 255, 255, 1);
@@ -226,7 +215,7 @@ img {
   opacity: 0;
 }
 .first{height: 369px;
-  background-image: url("https://qcdesign.commons.gc.cuny.edu/wp-content/blogs.dir/21140/files/2022/03/cropped-cropped-webbanner.png");
+  background-image: url("Assets/cropped-cropped-webbanner.png");
   background-position: center;
   font-family: helvetica, sans-serif;
 margin: 0 auto;
