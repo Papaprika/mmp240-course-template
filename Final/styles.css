@@ -141,7 +141,7 @@ color: rgba(207, 207, 207, 1);
      
      
     }
-    .a{  background-image: img("Assets/Digital-Design-Showcase.jpg");
+    .a{  background-image: url("Assets/Digital-Design-Showcase.jpg");
       background-position: center;
      max-width: 1100px;
      margin-top: 90px;
@@ -195,7 +195,7 @@ img {
   opacity: 0;
 }
 .first{height: 369px;
-  background-image: img("Assets/cropped-cropped-webbanner.png");
+  background-image: url("Assets/cropped-cropped-webbanner.png");
   background-position: center;
   font-family: helvetica, sans-serif;
 margin: 0 auto;
